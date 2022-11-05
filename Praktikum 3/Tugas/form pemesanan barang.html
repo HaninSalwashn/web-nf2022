@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3.1</title>
+</head>
+<body style="background-color: rgb(219, 219, 201); margin-left: 2cm; margin-right: 2cm; margin-bottom: 5px;">
+    <nav style="border: 2px solid; background-color: white; margin-bottom: 1cm;">
+        <table style="width: auto ; text-align: center;">
+            <tr>
+                <td style="width: 6cm;">Home</td>
+                <td>|</td>
+                <td style="width: 8cm;">Generate Link</td>
+                <td>|</td>
+                <td style="width: 8cm;">Transaction History</td>
+                <td>|</td>
+                <td style="width: 6cm;">Policy</td>
+                <td>|</td>
+                <td style="width: 6cm;">Logout</td>
+            </tr>
+        </table>
+    </nav>
+
+<main style="display:flex;">
+    <table style="width: 30%;">
+        <tr>
+            <td><img src="image/mac.webp" alt="mac icon" height="230px" width="230px"></td>
+        </tr>
+        <tr>
+            <td><a href="image/mac.webp" download>
+                <input type="button" value="Upload Picture" style="width: 130px; background-color: white;">
+                </a>
+          </td>
+        </tr>
+    </table>
+
+    <aside>
+        <table>
+            <tr>
+                <td><label for="title here">Title Here</label></td>
+                <td>:</td>
+                <td><input type="text" id="title here"></td>
+            </tr>
+            <tr>
+                <td><label for="deskripsi">Description</label></td>
+                <td>:</td>
+                <td>
+                    <textarea name="" id="" cols="21" rows="3" maxlength="400" placeholder="No more than 400 characters long"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="akun">Account Number</label></td>
+                <td>:</td>
+                <td colspan="3"><input type="text" name="akun" id="akun"></td>
+            </tr>
+            <tr>
+                <td>Bank</td>
+                <td>:</td>
+                <td>
+                    <select name="bank" id="bank">
+                        <option value="BNI">BNI</option>
+                        <option value="BSI">BSI</option>
+                        <option value="BTN">BTN</option>
+                        <option value="Mandiri">Mandiri</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Transaction</td>
+                <td>:</td>
+                <td>
+                    <select name="jumlah" id="transaksi">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td>*If the transaction is for 3 person, choose 3 from the drop-down list</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td style="color: green;"><input type="checkbox" name="Send to Mobile Phone" id="Send to Mobile Phone">Send to Mobile Phone</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td style="color: green;"><input type="checkbox" name="Send to Email" id="Send to Email">Send to Email</td>
+            </tr>
+            <tr>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td><input type="text" name="phone" id=""></td>
+            </tr>
+            <tr>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </aside>
+</main>
+
+<footer style="text-align: center; padding: top 3cm;">
+    <a href="form hasil pemesanan.html">
+        <input type="button" value="Generate Nabr Link" style="width: 180px; background-color: green; color: white; margin-top: 45px; height: 30px;">
+    </a>
+</footer>
+</body>
+</html>
