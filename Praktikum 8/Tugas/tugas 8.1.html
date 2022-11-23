@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 8.1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+        }
+
+        nav {
+            background-color: pink;
+            flex: 1;
+        }
+
+        main {
+            flex: 6;
+            min-width: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header, footer {
+            background-color: rgb(255, 228, 74);
+            flex: 1;
+        }
+
+        div {
+            flex: 4;
+            display: flex;
+        }
+
+        article {
+            background-color: beige;
+            flex: 2;
+        }
+
+        aside {
+            background-color: aquamarine;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>Nav</nav>
+    <main>
+        <header>Header</header>
+        <div>
+            <article>Article</article>
+            <aside>Aside</aside>
+        </div>
+        <footer>Footer</footer>
+    </main> 
+</body>
+</html>
