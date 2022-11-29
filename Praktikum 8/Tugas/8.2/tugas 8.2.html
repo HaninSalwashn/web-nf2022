@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 8.2</title>
+    <style>
+
+        body {
+            margin: 20px;
+            background-color: pink;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: center;
+            justify-content: center;
+        }
+
+        header, footer {
+            background-color: rgb(21, 243, 169);
+            flex: 1;
+        }
+
+        main {
+            flex: 5;
+            display: flex;
+            margin: 20px 0;
+        }
+
+        aside {
+            background-color: rgba(8, 148, 148, 0.733);
+            width: 30%;
+            margin-right: 20px;
+        }
+
+        article {
+            background-color: palevioletred;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        div {
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-end;
+         
+        }
+
+        img {
+            width: 240px;
+            height: 210px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header</header>
+    <main>
+        <aside>Aside</aside>
+        <article>Article
+            <div>
+                <img src="img/cat (1).jpg" alt="cat 1">
+                <img src="img/cat (2).jpg" alt="cat 2">
+                <img src="img/cat (3).jpg" alt="cat 3">
+            </div>
+        </article> 
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>
